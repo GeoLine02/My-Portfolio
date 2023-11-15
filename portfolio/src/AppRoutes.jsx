@@ -5,7 +5,13 @@ const AppRoutes = () => {
   return (
     <Routes>
       {appRoutes.map((route) => {
-        return <Route path={route.path} Component={route.Component} />;
+        return (
+          <Route
+            key={route.path}
+            path={route.path}
+            Component={route.Component}
+          />
+        );
       })}
     </Routes>
   );
