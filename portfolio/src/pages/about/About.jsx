@@ -5,7 +5,7 @@ import FrontEndCertificate from "../../assets/documents/Front-End-Certificate.pd
 import JavascriptCertificate from "../../assets/documents/Javascript-Certificate.pdf";
 const About = () => {
   return (
-    <div className="text-center customSm:h-screen bg-black text-white py-5 px-5 flex flex-col">
+    <div className="text-center bg-black text-white py-5 px-5 flex flex-col">
       <header>
         <NavBar />
       </header>
@@ -43,7 +43,7 @@ const About = () => {
           <div className="flex flex-col items-center gap-3">
             <h2 className="text-2xl">React Course</h2>
             <p className="bg-white text-black rounded-md px-8 py-4">
-              <a href="">Download Certificate</a>
+              Download Certificate
             </p>
           </div>
         </div>

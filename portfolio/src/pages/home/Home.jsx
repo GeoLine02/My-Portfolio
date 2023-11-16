@@ -1,24 +1,28 @@
 import React from "react";
 import TechStack from "../../components/TechStack/TechStack";
 import MyProjects from "../../components/MyProjects/MyProjects";
+import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/footer/Footer";
+import AboutMe from "../../components/AboutMe/AboutMe";
 const Home = () => {
   return (
-    <main className="flex flex-col items-center bg-black text-white">
-      <div className="flex flex-col items-center gap-10 mt-10 mb-10">
-        <h1 className="text-3xl max-w-sm text-center">
-          Hi 👋, My name is Nika. I build things for web
-        </h1>
+    <div className="bg-black text-white py-5 px-5">
+      <header>
+        <NavBar />
+      </header>
+      <main className="flex flex-col items-center">
+        <AboutMe />
         <div>
-          <img src="" alt="Nika" />
+          <TechStack />
         </div>
-      </div>
-      <div>
-        <TechStack />
-      </div>
-      <div>
-        <MyProjects />
-      </div>
-    </main>
+        <div>
+          <MyProjects />
+        </div>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   );
 };
 
