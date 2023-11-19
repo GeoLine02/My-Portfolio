@@ -6,11 +6,11 @@ import Footer from "../../components/footer/Footer";
 import AboutMe from "../../components/AboutMe/AboutMe";
 const Home = () => {
   return (
-    <div className="bg-black text-white py-5 px-5">
+    <div className=" text-white px-5 py-5 ">
       <header>
         <NavBar />
       </header>
-      <main className="flex flex-col items-center">
+      <main className="flex flex-col items-center py-5 px-5">
         <AboutMe />
         <div>
           <TechStack />

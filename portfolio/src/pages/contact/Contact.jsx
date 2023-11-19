@@ -4,11 +4,11 @@ import Footer from "../../components/footer/Footer";
 
 const Contact = () => {
   return (
-    <div className="py-5 px-5 bg-black text-white">
+    <div className="py-5 px-5  text-white h-screen">
       <header>
         <NavBar />
       </header>
-      <main>
+      <main className=" h-[75vh] flex flex-col justify-center items-center">
         <div className="text-center">
           <h1 className="text-3xl">For any questions please mail me:</h1>
           <h1 className="text-3xl">info@example.com</h1>
