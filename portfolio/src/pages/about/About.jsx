@@ -14,10 +14,11 @@ const About = () => {
         <h1 className="text-3xl mb-10">About Me</h1>
         <div className="max-w-md">
           <p>
-            The Generator App is an online tool that helps you to export
-            ready-made templates ready to work as your future website. It helps
-            you to combine slides, panels and other components and export it as
-            a set of static files: HTML/CSS/JS.
+            Hello, I'm Nika Tsuladze, a 20-year-old aspiring Front-End Developer
+            based in Georgia. I recently completed my training in HTML, CSS,
+            JavaScript, and React at the Academy of Digital Industries. I got
+            certificate for each course which you can check on this porfolio web
+            page
           </p>
         </div>
       </div>

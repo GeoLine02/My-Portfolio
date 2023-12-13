@@ -6,9 +6,6 @@ const AboutMe = () => {
       <h1 className="text-3xl max-w-sm text-center">
         Hi 👋, My name is Nika. I build things for web
       </h1>
-      <div>
-        <img src="" alt="Nika" />
-      </div>
     </div>
   );
 };
