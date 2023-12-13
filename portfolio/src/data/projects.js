@@ -17,7 +17,7 @@ const projectList = [
     image: Project2,
     discription: "rock paper scissors game using react and tailwind css.",
     code: "https://github.com/GeoLine02/Rock-Paper-Scissors-Game",
-    livePage: "",
+    livePage: "https://geoline02.github.io/Rock-Paper-Scissors-Game/",
   },
   {
     name: "Travel agency landing page",
