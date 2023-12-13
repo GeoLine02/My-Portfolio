@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="text-center mt-5">
         <h1 className="text-3xl">Nika Tsuladze</h1>
         <p>+995 579 05 80 10</p>
-        <p>info@example.com</p>
+        <p>wuladzenika04@gmail.com</p>
       </div>
     </footer>
   );

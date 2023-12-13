@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
+import MyProjects from "../../components/MyProjects/MyProjects";
 
 const Projects = () => {
   return (
@@ -7,6 +8,9 @@ const Projects = () => {
       <header>
         <NavBar />
       </header>
+      <main>
+        <MyProjects />
+      </main>
     </div>
   );
 };

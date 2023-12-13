@@ -3,6 +3,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/footer/Footer";
 import FrontEndCertificate from "../../assets/documents/Front-End-Certificate.pdf";
 import JavascriptCertificate from "../../assets/documents/Javascript-Certificate.pdf";
+import ReactCertificate from "../../assets/documents/React-Certificate.pdf";
 const About = () => {
   return (
     <div className="text-center bg-black text-white py-5 px-5 flex flex-col">
@@ -43,7 +44,9 @@ const About = () => {
           <div className="flex flex-col items-center gap-3">
             <h2 className="text-2xl">React Course</h2>
             <p className="bg-white text-black rounded-md px-8 py-4">
-              Download Certificate
+              <a href={ReactCertificate} download={ReactCertificate}>
+                Download Certificate
+              </a>
             </p>
           </div>
         </div>
