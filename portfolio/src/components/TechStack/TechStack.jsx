@@ -9,6 +9,7 @@ import SASS from "../../assets/images/sass-icon.svg";
 import git from "../../assets/images/git-icon.svg";
 import vsCode from "../../assets/images/vsCode-icon.svg";
 import gitHub from "../../assets/images/github-icon.svg";
+import Typescript from "../../assets/images/typescript.svg";
 
 const TechStack = () => {
   return (
@@ -19,6 +20,7 @@ const TechStack = () => {
         <img src={HTML} alt="HTML" />
         <img src={CSS} alt="CSS" />
         <img src={JS} alt="JS" />
+        <img src={Typescript} alt="TS" />
         <img src={react} alt="react" />
         <img src={redux} alt="redux" />
         <img src={tailwind} alt="tailwind" />

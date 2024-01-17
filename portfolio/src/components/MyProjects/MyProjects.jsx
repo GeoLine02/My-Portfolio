@@ -25,7 +25,7 @@ const MyProjects = () => {
         </div>
         <div>
           <h1 className="text-3xl">Currently trying to learn:</h1>
-          <h3 className="text-xl">TypeScript</h3>
+          <h3 className="text-xl">nextJS, react native</h3>
         </div>
       </div>
     </div>
