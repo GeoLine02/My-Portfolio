@@ -2,6 +2,7 @@ import Project1 from "../assets/images/project-1.svg";
 import Project2 from "../assets/images/project-2.svg";
 import Project3 from "../assets/images/project-3.svg";
 import Project4 from "../assets/images/project-4.svg";
+import Project5 from "../assets/images/project-5.svg";
 
 const projectList = [
   {
@@ -11,6 +12,13 @@ const projectList = [
       "top 100 movies from Imdb raiting using react and tailwind css.",
     code: "https://github.com/GeoLine02/BestMovies",
     livePage: "https://geoline02.github.io/BestMovies/",
+  },
+  {
+    name: "Exclusive ecommerce web site",
+    image: Project5,
+    discription: "ecommercse web bage using react typescript and redux toolkit",
+    code: "https://github.com/GeoLine02/Exclusive",
+    livePage: "https://geoline02.github.io/Exclusive/",
   },
   {
     name: "Rock paper scissors game",
